@@ -1,0 +1,95 @@
+/* body attributi : background e styling font  */
+body {
+    background-image: url("background.jpg");
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* impostazione colore paragrafi bianco e dimensione del font */
+p {
+    color: white;
+    font-size: 18px;
+}
+
+
+
+main {
+    background-color: rgb(0, 0 , 0 , 0.5);
+    padding: 15px;
+    margin: 10px 35px 10px;
+    width: 60%;
+    margin: auto;
+    border-radius: 15px;
+   
+}
+
+header {
+    text-align: center;
+
+}
+
+
+header > img {
+    width: 20%;
+    padding-top: 20px;
+
+}
+
+nav {
+    text-align: center;
+    font-size: 26px;
+    color: limegreen;
+}
+
+
+.container-btn {
+    background-color: limegreen;
+    height: 20%;
+    padding: 10px;
+}
+
+.titolo {
+    font-size: 24px;
+    color: white;
+    
+}
+
+
+nav {
+    padding: 20px;
+}
+
+
+
+.container > article {
+    margin-top: 25px;
+}
+
+
+
+/* stile delle barre di caricamento per ogni sotto div appartenenti al div container */
+
+.barra-uno {
+    background-color: orange;
+    width: 20%;
+    height: 35px;
+    border-radius: 5px;
+
+}
+
+.barra-due {
+    background-color: limegreen;
+    width: 50%;
+    height: 35px;
+    border-radius: 5px;
+
+}
+
+.barra-tre {
+    background-color: rgb(119, 42, 42);
+    width: 10%;
+    height: 35px;
+    border-radius: 5px;
+}
+
+
